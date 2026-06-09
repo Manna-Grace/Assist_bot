@@ -1,15 +1,15 @@
-# Whiff n Whisk AI Assistant
+# AI Assistant (Agentic AI)
 
-An intelligent, full-stack e-commerce assistant designed to streamline brownie orders and customer management. This project bridges the gap between natural language processing and relational database management.
+An intelligent, full-stack e-commerce assistant designed to streamline orders and customer management. This project bridges the gap between natural language processing and relational database management.
 
 ## The Problem
 Small-scale e-commerce owners often struggle with manual data lookups. This project provides an autonomous agent that allows staff to query customer and order data using natural language, eliminating the need for manual SQL script execution.
 
 ## Tech Stack
 * **Agentic AI:** Pydantic AI (utilizing `gemini-3.5-flash` for reasoning and tool-calling).
-* **Backend:** FastAPI, SQLAlchemy (Async), Python-dotenv.
-* **Frontend:** React, Vite, CSS3 (Glassmorphism & Beige Aesthetic).
-* **Database:** SQLite (Async).
+* **Backend:** FastAPI, SQLAlchemy, Python-dotenv.
+* **Frontend:** React, Vite
+* **Database:** SQLite.
 
 ## Key Features
 * **Autonomous Tool Calling:** The AI automatically identifies when to search the database based on the user's input.
